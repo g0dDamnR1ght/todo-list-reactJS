@@ -1,0 +1,68 @@
+/* @import '/my-app/node_modules/boo' */
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.list-group-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid green;
+    margin: 10px 0;
+}
+
+.form-group{
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: flex-start; */
+}
+
+label{
+    margin: 5px 0;
+}
+
+.form-group .inpText{
+    margin: 5px 0;
+    border: 1px solid green;
+    transition: .5s;
+}
+
+.form-group .inpText:hover{
+    border: 2px solid green;
+}
+
+.form-group .inpText:focus{
+    border: 3px solid green;
+}
+
+.form-group .btn-submit{
+    width: 200px;
+    height: 40px;
+    background-color: yellow;
+    align-self: center;
+    margin: 5px 0;
+    border: 1px solid black;
+    transition: .4s;
+}
+
+.form-group .btn-submit:hover{
+    background-color: rgb(165, 165, 61);
+    border: none;
+}
+
+.btn{
+    margin: 0 5px;
+}
+
+.done{
+    background-color: rgb(0, 255, 55);
+}
+
+.done .list-group_title{
+    text-decoration: line-through;
+}
